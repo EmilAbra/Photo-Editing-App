@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Slider from './Slider';
 import SidebarItem from './SidebarItem';

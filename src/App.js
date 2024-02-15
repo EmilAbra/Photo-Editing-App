@@ -105,11 +105,11 @@ function App() {
         {options.map((option, index) => {
           return (
             <SidebarItem 
-            key={index} 
-            name={option.name}
-            active={index === selectedOptionIndex}
-            handleClick={() => setSelectedOptionIndex(index)}
-          />
+              key={index} 
+              name={option.name}
+              active={index === selectedOptionIndex}
+              handleClick={() => setSelectedOptionIndex(index)}
+            />
           )
         })}
       </div>
